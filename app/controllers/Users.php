@@ -26,7 +26,7 @@
 
         // Validate Email
         if(empty($data['email'])){
-          $data['email_err'] = 'Pleae enter email';
+          $data['email_err'] = 'Please enter email';
         } else {
           // Check email
           if($this->userModel->findUserByEmail($data['email'])){
