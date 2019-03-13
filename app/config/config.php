@@ -8,7 +8,7 @@
   // App Root
   define('APPROOT', dirname(dirname(__FILE__)));
   // URL Root
-  define('URLROOT', 'https://app-shareposts.herokuapp.com');
+  define('URLROOT', 'https://app-shareposts.herokuapp.com/shareposts');
   // Site Name
   define('SITENAME', 'SharePosts');
   // App Version
